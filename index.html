@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="/scripts.js"></script>
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+    <form id="applicationForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="program">Select Program:</label>
+        <select id="program" name="program" required>
+            <option value="">--Select Program--</option>
+            <option value="UG">UG</option>
+            <option value="PG">PG</option>
+        </select>
+
+        <label for="course">Select Course:</label>
+        <select id="course" name="course" required>
+            <option value="">--Select Course--</option>
+        </select>
+
+        <label for="state">State:</label>
+        <input type="text" id="state" name="state" required>
+
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message"></textarea>
+
+        <button type="submit">Apply</button>
+    </form>
+
+</body>
+
+</html>
