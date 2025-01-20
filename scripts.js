@@ -4,8 +4,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Courses based on the program
     const courses = {
-        UG: ["CSE", "AI", "ML"],
-        PG: ["MBA", "MCA"]
+        UG: ["Artificial Intelligence and Machine Learning", ,
+            "Computer Science & Engineering",
+            "Computer Science Engineering (Data Science)"],
+
+        PG: ["Master of Business Administration",
+            "Master of Computer Applications"
+        ]
     };
 
     // Update courses when program changes

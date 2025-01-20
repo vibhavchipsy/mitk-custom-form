@@ -2,7 +2,7 @@
 form {
     max-width: 500px;
     margin: 20px auto;
-    padding: 20px;
+    padding: 30px 30px 0px 30px;
     border: 1px solid #ccc;
     border-radius: 8px;
     background-color: #f9f9f9;
@@ -24,8 +24,8 @@ form select,
 form textarea,
 form button {
     width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
+    padding: 12px 12px 12px 12px;
+    margin-bottom: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 14px;
@@ -49,17 +49,18 @@ form textarea {
 
 /* Submit Button */
 form button {
-    background-color: #4CAF50;
+    width: auto;
+    background-color: #0F4BA0;
     color: #fff;
     font-size: 16px;
     font-weight: bold;
     border: none;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 form button:hover {
-    background-color: #45a049;
+    box-shadow: 0 5px 5px 0 rgba(66, 133, 244, .3);
 }
 
 /* Form Hover/Focus States */
@@ -75,7 +76,7 @@ form textarea:focus {
 form input::placeholder,
 form textarea::placeholder {
     color: #aaa;
-    font-style: italic;
+    font-style: normal;
 }
 
 /* Responsive Styling */
@@ -88,4 +89,22 @@ form textarea::placeholder {
         font-size: 14px;
         padding: 10px;
     }
+}
+
+.submit-div {
+    justify-content: center;
+    display: flex;
+}
+
+.apply-now {
+    font-size: 25px;
+    color: #0F4BA0;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+input::-ms-input-placeholder {
+    font-style: normal;
 }
