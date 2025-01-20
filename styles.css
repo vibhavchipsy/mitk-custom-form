@@ -103,6 +103,7 @@ form textarea::placeholder {
     display: flex;
     justify-content: center;
     padding-bottom: 20px;
+    font-family: "Roboto", Sans-serif;
 }
 
 input::-ms-input-placeholder {
