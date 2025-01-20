@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const selectedProgram = programDropdown.value;
 
         // Clear existing options
-        courseDropdown.innerHTML = '<option value="">--Select Course--</option>';
+        courseDropdown.innerHTML = '<option value="">Select Course</option>';
 
         // Populate courses based on the selected program
         if (courses[selectedProgram]) {
